@@ -94,15 +94,16 @@ At first glance, the files in this repository might seem confusing, and you migh
 There are a total of seven files, including the README.md file, and each serves a specific purpose.
 
 **Dataset Files**:
-**QVI_transaction_data.xlsx** – This is the primary dataset on which data preprocessing is performed. If you want to start analyzing the data in Jupyter Notebook, download this Excel file and import it using pandas to begin the data cleaning process.
-**QVI_purchase_behaviour.xlsx** – This dataset needs to be merged with the cleaned version of QVI_transaction_data.xlsx to gain further insights.
-**QVI_data.xlsx** – This is the final merged dataset, combining both QVI_transaction_data.xlsx and QVI_purchase_behaviour.xlsx.
+- **QVI_transaction_data.xlsx** – This is the primary dataset on which data preprocessing is performed. If you want to start analyzing the data in Jupyter Notebook, download this Excel file and import it using pandas to begin the data cleaning process.
+- **QVI_purchase_behaviour.xlsx** – This dataset needs to be merged with the cleaned version of QVI_transaction_data.xlsx to gain further insights.
+- **QVI_data.xlsx** – This is the final merged dataset, combining both QVI_transaction_data.xlsx and QVI_purchase_behaviour.xlsx.
 That should clear up any confusion about the three datasets!
 
 **Other Files:**
-**Jupyter Analysis Notebook.ipynb** – This notebook contains all the code related to data cleaning and analysis. You can refer to it while working with the dataset.
-**Uplifting Testing.pdf** – This document outlines the A/B testing conducted to compare trial stores with control stores. It also includes an assessment of the results to evaluate the effectiveness of promotional strategies. It also includes the visualizations.
-**Detailed Code Explanation.ipynb** – As the name suggests, this file provides a detailed breakdown of each piece of code, helping you understand its purpose and functionality.
+- **Jupyter Analysis Notebook.ipynb** – This notebook contains all the code related to data cleaning and analysis. You can refer to it while working with the dataset.
+- **Uplifting Testing.pdf** – This document outlines the A/B testing conducted to compare trial stores with control stores. It also includes an assessment of the results to evaluate the effectiveness of promotional strategies. It also includes the visualizations.
+- **Detailed Code Explanation.ipynb** – As the name suggests, this file provides a detailed breakdown of each piece of code, helping you understand its purpose and functionality.
+
 And that's it! I hope this guide makes it easier for you to navigate through the files.
 
 ## **Credits & Acknowledgments**
