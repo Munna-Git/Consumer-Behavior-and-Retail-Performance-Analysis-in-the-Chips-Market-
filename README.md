@@ -87,26 +87,32 @@ Each section focuses on cleaning data, analyzing customer behavior, and generati
 >>> pip install pandas numpy matplotlib seaborn #anaconda jupyter notebook already has these modules so no need of installing again
 4. Run the Jupyter Notebook or Python scripts to execute the analysis.
 
-## Explanation of the files in Github
-At first it can be confusing to look at the files and go like - "what the hell are these files". That is wjy i am adding this section to guide you through the files
-There are 7 files in total including the README.md file and each file serves it's own purpose. 
-Let's begin with the dataset files:
-- The main dataset here on which the pre-processing is conducted is the "QVI_transaction_data.xlsx". So if you want to start with the analysis in Jupyter Notebook then download this excel file and import it to Jupyter Notebook using pandas and conduct the Data cleaning. 
-The "QVI_purchase_behaviour.xlsx" is the dataset that you have to merge later with the clean dataset("QVI_transaction_data.xlsx") to derive further insights.
-The "QVI_data.xlsx" is the merged dataset of "QVI_transaction_data.xlsx" and "QVI_purchase_behaviour.xlsx".
-So here ends the confusion of the 3 dataset confusion.
+## Explanation of the Files in GitHub
 
-- Next file is "Jupyter Analysis Notebook.ipynb" which consists of all the codes involved in data cleaning and the insights derived from the dataset. You can refer this notebook to run analysis on the dataset
+At first glance, the files in this repository might seem confusing, and you might wonder, "What are all these files?" That's why I'm adding this section to guide you through them.
+
+There are a total of seven files, including the README.md file, and each serves a specific purpose.
+
+**Dataset Files**:
+**QVI_transaction_data.xlsx** – This is the primary dataset on which data preprocessing is performed. If you want to start analyzing the data in Jupyter Notebook, download this Excel file and import it using pandas to begin the data cleaning process.
+**QVI_purchase_behaviour.xlsx** – This dataset needs to be merged with the cleaned version of QVI_transaction_data.xlsx to gain further insights.
+**QVI_data.xlsx** – This is the final merged dataset, combining both QVI_transaction_data.xlsx and QVI_purchase_behaviour.xlsx.
+That should clear up any confusion about the three datasets!
+
+**Other Files:**
+**Jupyter Analysis Notebook.ipynb** – This notebook contains all the code related to data cleaning and analysis. You can refer to it while working with the dataset.
+**Uplifting Testing.pdf** – This document outlines the A/B testing conducted to compare trial stores with control stores. It also includes an assessment of the results to evaluate the effectiveness of promotional strategies. It also includes the visualizations.
+**Detailed Code Explanation.ipynb** – As the name suggests, this file provides a detailed breakdown of each piece of code, helping you understand its purpose and functionality.
+And that's it! I hope this guide makes it easier for you to navigate through the files.
 
 ## **Credits & Acknowledgments**
 
 This analysis was conducted as part of a virtual internship with **Quantium**. Special thanks to Quantium for providing the dataset and guiding the analytical approach.
 
- 
+
 ## Final Thoughts
 This project provides a strategic guide for retailers aiming to optimize their product offerings and marketing efforts in the chips market. By leveraging data-driven insights, businesses can enhance customer engagement, drive sales growth, and maintain a competitive edge in the snack food industry.
 
-## Author
-    Name: Munna
+📌 Author: Munna
 📞 Contact
 🔗 [LinkedIn](http://linkedin.com/in/munna-a4ab07253)
