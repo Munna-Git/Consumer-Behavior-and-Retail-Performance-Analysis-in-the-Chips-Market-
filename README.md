@@ -87,6 +87,13 @@ Each section focuses on cleaning data, analyzing customer behavior, and generati
 >>> pip install pandas numpy matplotlib seaborn #anaconda jupyter notebook already has these modules so no need of installing again
 4. Run the Jupyter Notebook or Python scripts to execute the analysis.
 
+## Explanation of the files in Github
+At first it can be confusing to look at the files and go like - "what the hell are these files". That is wjy i am adding this section to guide you through the files
+There are 7 files in total including the README.md file and each file serves it's own purpose. 
+Let's begin with the dataset files:
+- The main dataset here on which the pre-processing is conducted is the "QVI_transaction_data.xlsx". So if you want to start with the analysis in Jupyter Notebook then download this excel file and import it to Jupyter Notebook using pandas and conduct the Data cleaning. 
+The "QVI_purchase_behaviour.xlsx" is the dataset that you have to merge later with the clean dataset to derive insights. 
+
 
 ## **Credits & Acknowledgments**
 
@@ -96,5 +103,7 @@ This analysis was conducted as part of a virtual internship with **Quantium**. S
 ## Final Thoughts
 This project provides a strategic guide for retailers aiming to optimize their product offerings and marketing efforts in the chips market. By leveraging data-driven insights, businesses can enhance customer engagement, drive sales growth, and maintain a competitive edge in the snack food industry.
 
+## Author
+    Name: Munna
 📞 Contact
 🔗 [LinkedIn](http://linkedin.com/in/munna-a4ab07253)
