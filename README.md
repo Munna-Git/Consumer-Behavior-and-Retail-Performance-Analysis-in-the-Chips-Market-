@@ -92,8 +92,11 @@ At first it can be confusing to look at the files and go like - "what the hell a
 There are 7 files in total including the README.md file and each file serves it's own purpose. 
 Let's begin with the dataset files:
 - The main dataset here on which the pre-processing is conducted is the "QVI_transaction_data.xlsx". So if you want to start with the analysis in Jupyter Notebook then download this excel file and import it to Jupyter Notebook using pandas and conduct the Data cleaning. 
-The "QVI_purchase_behaviour.xlsx" is the dataset that you have to merge later with the clean dataset to derive insights. 
+The "QVI_purchase_behaviour.xlsx" is the dataset that you have to merge later with the clean dataset("QVI_transaction_data.xlsx") to derive further insights.
+The "QVI_data.xlsx" is the merged dataset of "QVI_transaction_data.xlsx" and "QVI_purchase_behaviour.xlsx".
+So here ends the confusion of the 3 dataset confusion.
 
+- Next file is "Jupyter Analysis Notebook.ipynb" which consists of all the codes involved in data cleaning and the insights derived from the dataset. You can refer this notebook to run analysis on the dataset
 
 ## **Credits & Acknowledgments**
 
